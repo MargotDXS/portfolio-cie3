@@ -156,7 +156,7 @@ nav ul a:hover {
 /* first section */
 .taskDescription {
   text-align: justify;
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 5;
   align-self: center;
 }
 
@@ -209,5 +209,5 @@ nav ul a:hover {
 
 .conclusionSection {
   text-align: justify;
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 5;
 }
