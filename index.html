@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="mobile.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+    <title>Margot Douxchamps | CIE 3</title>
+  </head>
+  <body>
+    <div class="cursor"></div>
+
+    <header id="pageHeader">
+      <a href="#firstSection"><h1>Margot Douxchamps - Portfolio</h1></a>
+      <svg
+        class="menuIcon"
+        id="barsMenuIcon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+        onclick="changesMenuState()"
+        onmouseenter="changesIconStateEnter('burger')"
+        onmouseleave="changesIconStateLeave('burger')"
+      >
+        <path
+          d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+        />
+      </svg>
+      <svg
+        class="menuIcon"
+        id="crossMenuIcon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+        onclick="changesMenuState()"
+        onmouseenter="changesIconStateEnter('cross')"
+        onmouseleave="changesIconStateLeave('cross')"
+      >
+        <path
+          d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+        />
+      </svg>
+    </header>
+
+    <nav>
+      <ul>
+        <a href="#portraits-title"><li>PORTRAITS &ensp;</li></a>
+        <a href="#lightpainting-title"><li>LIGHTPAINTING &ensp;</li></a>
+        <a href="#"><li>EXTERIEUR &ensp;</li></a>
+        <a href="#"><li>DRONE &ensp;</li></a>
+        <a href="#"><li>STOP MOTION &ensp;</li></a>
+        <a href="#"><li>OBJETS &ensp;</li></a>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="containerGrid" id="firstSection">
+        <p class="taskDescription">
+          Voici un simple site pour vous présentez mes différentes photos
+          réalisées lors du CIE3 au CPNE. Il nous était demandé un certains
+          nombres de photos par thème. Vous pouvez voir les différents thèmes
+          dans le menu et vous rendre à un spécifiquement ou simplement survoler
+          toute les photos &#128515 &#128064
+        </p>
+      </section>
+
+      <!-- section portrait -->
+      <section class="exercice-task">
+        <h2 id="portraits-title">Portraits</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          voluptatem suscipit, facere sequi dicta fugiat perspiciatis dolorum,
+          amet ipsam doloremque est repellat similique doloribus? Hic, iure! Non
+          quibusdam corporis unde.
+        </p>
+      </section>
+      <section class="horizontal-section">
+        <section class="sticky-element">
+          <article class="element-section">
+            <a href="ressources/photos/portraits/1.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/1.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/2.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/2.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/3.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/3.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/4.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/4.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/5.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/5.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/6.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/6.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/7.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/7.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/8.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/8.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/9.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/9.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/portraits/10.jpg" target="_blank"
+              ><img
+                src="ressources/photos/portraits/10.jpg"
+                class="photo-element"
+            /></a>
+          </article>
+        </section>
+      </section>
+
+      <!-- section lightpainting -->
+      <section class="exercice-task">
+        <h2 id="lightpainting-title">Lightpainting</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          voluptatem suscipit, facere sequi dicta fugiat perspiciatis dolorum,
+          amet ipsam doloremque est repellat similique doloribus? Hic, iure! Non
+          quibusdam corporis unde.
+        </p>
+      </section>
+      <section class="horizontal-section2">
+        <section class="sticky-element2">
+          <article class="element-section2">
+            <a href="ressources/photos/lightpainting/1.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/1.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/2.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/2.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/3.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/3.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/4.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/4.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/5.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/5.jpg"
+                class="photo-element"
+            /></a>
+          </article>
+        </section>
+      </section>
+
+      <!-- section exterieur -->
+      <section class="exercice-task">
+        <h2 id="lightpainting-title">Extérieur</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          voluptatem suscipit, facere sequi dicta fugiat perspiciatis dolorum,
+          amet ipsam doloremque est repellat similique doloribus? Hic, iure! Non
+          quibusdam corporis unde.
+        </p>
+      </section>
+      <section class="horizontal-section2">
+        <section class="sticky-element2">
+          <article class="element-section2">
+            <a href="ressources/photos/lightpainting/1.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/1.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/2.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/2.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/3.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/3.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/4.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/4.jpg"
+                class="photo-element"
+            /></a>
+            <a href="ressources/photos/lightpainting/5.jpg" target="_blank"
+              ><img
+                src="ressources/photos/lightpainting/5.jpg"
+                class="photo-element"
+            /></a>
+          </article>
+        </section>
+      </section>
+
+      <section class="dummy"></section>
+    </main>
+  </body>
+</html>

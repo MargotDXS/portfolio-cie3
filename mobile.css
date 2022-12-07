@@ -1,0 +1,35 @@
+@media only screen and (max-width: 800px){
+    
+    /* general style */
+    .cursor {
+        display: none;
+    }
+    .links_hover {
+        display: none;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .menuIcon {
+        height: 3.5vh;
+        width: 3.5vh;
+    }
+    nav ul a {
+        font-size: 1.5rem;
+        -webkit-text-stroke: none;
+        color: var(--main-color);
+        font-family: 'jost', sans-serif;
+    }
+
+    /* first section */
+    .taskDescription {
+        grid-column: 3/ span 8;
+        text-align: center;
+    }
+}
