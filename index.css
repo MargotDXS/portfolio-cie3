@@ -139,7 +139,7 @@ nav ul a:hover {
   grid-template-columns: repeat(12, 1fr);
 }
 
-#portraits-title, #lightpainting-title {
+#portraits-title, #lightpainting-title, #exterieur-title {
   padding-top: 15vh;
 }
 
@@ -156,17 +156,17 @@ nav ul a:hover {
 }
 
 /* horizontal section */
-.horizontal-section, .horizontal-section2 {
+.horizontal-section, .horizontal-section2, .horizontal-section3 {
   padding: 10vh;
 }
 
-.sticky-element, .sticky-element2 {
+.sticky-element, .sticky-element2, .sticky-element3 {
   position: sticky;
   top: 27.5vh;
   overflow: hidden;
 }
 
-.element-section, .element-section2 {
+.element-section, .element-section2, .element-section3  {
   display: flex;
   position: relative;
   width: 100%; 

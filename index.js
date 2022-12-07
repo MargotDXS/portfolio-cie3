@@ -96,3 +96,20 @@ window.addEventListener("scroll", function () {
       "translateX(-" + (scrollFromTop2 - distanceFromTop2) + "px";
   }
 });
+
+// horizontal scroll section exterieur
+let distanceFromTop3 = document.querySelector(".horizontal-section3").offsetTop;
+let horizontalLenght3 = document.querySelector(".element-section3").scrollWidth;
+let totalScoll3 = distanceFromTop3 + horizontalLenght3;
+let elementSection3 = document.querySelector(".element-section3");
+const setHorizontalSectionHeight3 = (document.querySelector(".horizontal-section3").style.height = horizontalLenght3 + "px");
+console.log(horizontalLenght3)
+
+window.addEventListener("scroll", function () {
+  let scrollFromTop3 = window.pageYOffset;
+  if (window.scrollY >= distanceFromTop3 && window.scrollY <= totalScoll3) {
+    elementSection3.style.transform =
+      "translateX(-" + (scrollFromTop3 - distanceFromTop3) + "px";
+  }
+});
+
