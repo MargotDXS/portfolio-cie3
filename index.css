@@ -101,7 +101,7 @@ p {
 /* style navigation */
 nav {
   position: fixed;
-  top: 15vh;
+  top: 12vh;
   right: -100%;
   transition: ease-out 0.7s;
   background-color: rgba(255, 255, 255, 0.6);
@@ -111,7 +111,7 @@ nav {
 }
 nav ul {
   list-style: none;
-  padding: 1vw 3vw;
+  padding: 0 3vw;
 }
 
 nav ul a {
@@ -121,7 +121,6 @@ nav ul a {
   font-family: "jostBold", sans-serif;
   font-size: 2.5rem;
   text-align: end;
-  margin: 0 0.1vh;
 }
 
 nav ul a:hover {
@@ -139,12 +138,13 @@ nav ul a:hover {
   grid-template-columns: repeat(12, 1fr);
 }
 
-#portraits-title, #lightpainting-title, #exterieur-title {
+#portraits-title, #lightpainting-title, #exterieur-title, #drone-title, #stopMotion-title, #objet-title {
   padding-top: 15vh;
 }
 
 .exercice-task {
   padding-left: 10vh;
+  margin-right: 50vw;
 }
 
 
@@ -156,17 +156,17 @@ nav ul a:hover {
 }
 
 /* horizontal section */
-.horizontal-section, .horizontal-section2, .horizontal-section3 {
+.horizontal-section, .horizontal-section2, .horizontal-section3, .horizontal-section4, .horizontal-section5 {
   padding: 10vh;
 }
 
-.sticky-element, .sticky-element2, .sticky-element3 {
+.sticky-element, .sticky-element2, .sticky-element3, .sticky-element4, .sticky-element5 {
   position: sticky;
   top: 27.5vh;
   overflow: hidden;
 }
 
-.element-section, .element-section2, .element-section3  {
+.element-section, .element-section2, .element-section3, .element-section4, .element-section5 {
   display: flex;
   position: relative;
   width: 100%; 
@@ -180,13 +180,19 @@ nav ul a:hover {
   transition: 0.2s;
 }
 
-.photo-element:hover {
+.photo-element:hover, .stopMotion-element:hover {
   transform: scale(103%);
   transition: 0.2s;
 }
 
-.dummy {
-  height: 100vh;
-  width: 100vw;
-  background-color: aquamarine;
+.stopMotion-element {
+  width: 100%;
+  height: auto;
+  margin-top: 10vh;
+}
+.storyboard {
+  grid-column: 2/span 3;
+}
+.stop-motion-video {
+  grid-column: 6/span 6;
 }
