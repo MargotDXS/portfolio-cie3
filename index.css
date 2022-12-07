@@ -80,6 +80,7 @@ h2 {
 p {
   font-family: "jost", sans-serif;
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .menuIcon {
@@ -121,6 +122,10 @@ nav ul a {
   font-family: "jostBold", sans-serif;
   font-size: 2.5rem;
   text-align: end;
+}
+
+nav ul a li {
+ margin: 5vh 0;
 }
 
 nav ul a:hover {
@@ -195,4 +200,14 @@ nav ul a:hover {
 }
 .stop-motion-video {
   grid-column: 6/span 6;
+}
+
+#conclusionTitle {
+  /* grid-column: 2/span 3; */
+  padding-top: 35vh;
+}
+
+.conclusionSection {
+  text-align: justify;
+  grid-column: 2 / span 4;
 }

@@ -8,7 +8,7 @@
         display: none;
     }
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     h2 {
         font-size: 1.2rem;
@@ -27,9 +27,35 @@
         font-family: 'jost', sans-serif;
     }
 
+    .exercice-task {
+        margin-right: 20vw;
+    }
+
     /* first section */
     .taskDescription {
         grid-column: 3/ span 8;
-        text-align: center;
+        text-align: justify;
+    }
+
+    /* horizontal section */
+    .horizontal-section, .horizontal-section2, .horizontal-section3, .horizontal-section4, .horizontal-section5 {
+        padding: 2vh;
+    }
+    .photo-element {
+        height: 30vh;
+        width: auto;
+        margin: 0 1vh 0 0;
+    }
+
+    .storyboard {
+        grid-column: 3/span 8;
+    }
+    .stop-motion-video {
+        grid-column: 3/span 8;
+    }
+      
+    .conclusionSection {
+        text-align: justify;
+        grid-column: 3 / span 8;
     }
 }
