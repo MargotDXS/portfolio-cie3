@@ -3,6 +3,8 @@ let closedMenu = true;
 let burgerIcon = document.querySelector("#barsMenuIcon");
 let crossIcon = document.querySelector("#crossMenuIcon");
 let navigationElement = document.querySelector("nav");
+let menuLink = document.querySelectorAll("nav>ul>a");
+console.log(menuLink)
 
 // variable personalized cursor
 let mousse = document.querySelector(".cursor");
@@ -21,6 +23,11 @@ function changesMenuState() {
     navigationElement.style.right = "0";
   }
 }
+
+// menu closed after click
+menuLink.forEach(element => { element.addEventListener('click', function(){
+  changesMenuState()
+})})
 
 // personalized cursor
 document.addEventListener("mousemove", function (e) {
